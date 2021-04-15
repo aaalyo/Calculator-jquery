@@ -18,8 +18,9 @@ $('.num').click(function () {
 
 $('.del-bg').click(function () {
     screen = '';
-    result = screen;
+    action = '';
     refreshScreen();
+    result = screen;
 });
 
 $('.sum').click(function () {
