@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calculator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="background"><!-- Main background -->
+
+          <div id="screen"></div>
+
+          <div id="main">
+            <div id="first-rows">
+              <button class="del-bg" id="delete">Del</button>
+              <button class="btn-style opera-bg value align operator sum">+</button>
+            </div>
+
+            <div class="rows">
+              <button value="7" class="btn-style num-bg num first-child">7</button>
+              <button value="8" class="btn-style num-bg num">8</button>
+              <button value="9" class="btn-style num-bg num">9</button>
+              <button class="btn-style opera-bg operator minus">-</button>
+            </div>
+
+            <div class="rows">
+              <button value="4" class="btn-style num-bg num first-child">4</button>
+              <button value="5" class="btn-style num-bg num" >5</button>
+              <button value="6" class="btn-style num-bg num" >6</button>
+              <button class="btn-style opera-bg operator multiply" >x</button>
+            </div>
+
+            <div class="rows">
+              <button value="1" class="btn-style num-bg num first-child" >1</button>
+              <button value="2" class="btn-style num-bg num" >2</button>
+              <button value="3" class="btn-style num-bg num" >3</button>
+              <button class="btn-style opera-bg operator divide" >/</button>
+            </div>
+
+            <div class="rows">
+              <button value="0" class="num-bg zero num" id="zero" >0</button>
+              <button value="." class="btn-style num-bg period num fall-back" >.</button>
+              <button id="eqn-bg" class="eqn align" >=</button>
+            </div>
+
+          </div>
+
+        </div>
+           
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="main.js" type="text/javascript"></script>
+    </body>
+
+</html>
